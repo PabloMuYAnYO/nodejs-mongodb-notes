@@ -12,6 +12,7 @@ Dependencias principales:
 * [mongoose](https://www.npmjs.com/package/mongoose) - Mongoose es una herramienta de modelado de objetos MongoDB diseñada para trabajar en un entorno asíncrono.
 * [passport](https://www.npmjs.com/package/passport) - Autenticación simple y discreta para Node.js (Trabajando en conjunto con **bcryptjs**).
 * [passport-local](https://www.npmjs.com/package/passport-local) - Estrategia de autenticación de nombre de usuario y contraseña local para Passport.
+* [path](https://expressjs.com/en/guide/routing.html#route-paths) - Modulo por defecto de Nodejs, en path se especifican las rutas en las cuales se van a buscar y los programas van ejecutar.
 
 Dependencias de desarrollo:
 

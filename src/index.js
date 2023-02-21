@@ -1,6 +1,7 @@
 // * ARCHIVO PRINCIPAL DE ARRANQUE DE LA APLICACIÓN
 
 const app = require('./server');
+require('./dbConnection');
 const colors = require('colors');
 
 
