@@ -13,6 +13,7 @@ Dependencias principales:
 * [passport](https://www.npmjs.com/package/passport) - Autenticación simple y discreta para Node.js (Trabajando en conjunto con **bcryptjs**).
 * [passport-local](https://www.npmjs.com/package/passport-local) - Estrategia de autenticación de nombre de usuario y contraseña local para Passport.
 * [path](https://expressjs.com/en/guide/routing.html#route-paths) - Modulo por defecto de Nodejs, en path se especifican las rutas en las cuales se van a buscar y los programas van ejecutar.
+* [pug](https://www.npmjs.com/package/pug) - Un lenguaje de plantillas limpio y sensible a los espacios en blanco para escribir HTML
 
 Dependencias de desarrollo:
 
