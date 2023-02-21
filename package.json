@@ -1,0 +1,39 @@
+{
+  "name": "nodejs-mongodb-notes",
+  "version": "1.0.0",
+  "description": "> En este proyecto se implementara express en el entorno en tiempo de ejecución multiplataforma, Nodejs, veremos sus pasos iniciales para levantar una aplicación, hacer la conexión una base de datos y crear rutas con vistas basadas en el motor (PUG) con algunas funcionalidades.\r >",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devstart": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "pable",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": "https://"
+  },
+  "homepage": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.9.2",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20",
+    "npm-check-updates": "^16.7.5"
+  }
+}
