@@ -12,12 +12,12 @@
   "author": "pable",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/PabloMuYAnYO/nodejs-mongodb-notes.git"
   },
   "bugs": {
-    "url": "https://"
+    "url": "https://github.com/PabloMuYAnYO/nodejs-mongodb-notes/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/PabloMuYAnYO/nodejs-mongodb-notes#readme",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
