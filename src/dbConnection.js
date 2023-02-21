@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const colors = require('colors');
 require('dotenv').config();
 mongoose.set('strictQuery', false);
 mongoose.Promise = global.Promise;
@@ -15,7 +16,7 @@ mongoose.connect(MONGODB, {
     useNewUrlParser: true,
 }, (err) => {
     if (!err) {
-        console.log('MongoDB Connection Succeeded.')
+        console.log('MongoDB Connection Succeeded.'.bgGreen)
     } else {
         console.log('Error in DB connection: ' + err)
     }
